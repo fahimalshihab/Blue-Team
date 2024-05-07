@@ -17,12 +17,13 @@ An attack vector is a path, method or means by which cybercriminals penetrate a 
 - Post-Incident Activity
 ####PDF
 1. NIST PDF:
-   - Digital Identity Guidelines 
-   - Enrollment and Identity Proofing
-   - Authentication and Lifecycle Management
-   - Federation and Assertions
-
-3. 
+   - [Digital Identity Guidelines](https://github.com/fahimalshihab/Blue-Team/blob/main/NIST.SP.800-63-3.pdf) 
+   - [Enrollment and Identity Proofing](https://github.com/fahimalshihab/Blue-Team/blob/main/NIST.SP.800-63a.pdf)
+   - [Authentication and Lifecycle Management](https://github.com/fahimalshihab/Blue-Team/blob/main/NIST.SP.800-63b.pdf)
+   - [Federation and Assertions](https://github.com/fahimalshihab/Blue-Team/blob/main/NIST.SP.800-63c.pdf)
+2. ISO PDF: [ISO PDF](https://github.com/fahimalshihab/Blue-Team/blob/main/ISO-IEC-27035-3-2020.pdf)
+3. SANS PDF: [SANS PDF](https://github.com/fahimalshihab/Blue-Team/blob/main/33901.pdf)
+4. CREST PDF: [CREST PDF](https://github.com/fahimalshihab/Blue-Team/blob/main/cyber-security-incident-response-guide.pdf)
 #### Incident response is the strategic, organized responsed an organization uses following a cyberattack. The response is executed according to planned procedures that seek to limit damage and repair breached vulnerabilities in systems.
 
 IT professionals use incident response plans to manage security incidents. Having a clearly defined incident response plan can limit attack damage, lower costs, and save time after a security breach.
