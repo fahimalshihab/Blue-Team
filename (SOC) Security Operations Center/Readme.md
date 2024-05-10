@@ -7,7 +7,13 @@ Security operations center is responsible for protecting an organization against
 
 ### Roles
 
-- <b>Security Analyst:</b> The cybersecurity first responders who monitor security alerts, investigate suspicious activity, and take steps to contain threats.
+- <b>Security Analysts:</b> The cybersecurity first responders who monitor security alerts, investigate suspicious activity, and take steps to contain threats.
+
+- <b>Incident Responders:</b>They are the ones who take action when a security threat or incident is detected by the SOC's various technologies. 
+
+- <b>Threat Hunters:</b> These proactive cybersecurity specialists actively search for hidden threats that might evade traditional security tools. They act like digital detectives, analyzing data and user behavior to identify potential threats before they can cause damage.
+
+- <b>Threat Intelligence Analyst:</b>  A cybersecurity professional who gathers and analyzes information about cyber threats to proactively protect their organization. They act as digital detectives, hunting for hidden threats and translating complex data into actionable intelligence for security teams.
   
 - <b>Security Engineer:</b> They maintain and update the security tools and systems used by the SOC team, ensuring they are functioning properly and configured effectively.
 
@@ -15,9 +21,8 @@ Security operations center is responsible for protecting an organization against
 
 - <b>Chief Information Security Officer (CISO):</b> Holds leadership responsibility for the organization's overall security posture and provides direction to the SOC team.
 
-- <b>Threat Hunter:</b> These proactive cybersecurity specialists actively search for hidden threats that might evade traditional security tools. They act like digital detectives, analyzing data and user behavior to identify potential threats before they can cause damage.
 
-### Tools
+### Technology
 #### SEIM (Security Information and Event Management)
 SIEM stands for Security Information and Event Management. It's a software platform that acts as a central hub for collecting, analyzing, and storing security data from various sources across your network.
 
@@ -48,3 +53,26 @@ SOAR, which stands for Security Orchestration, Automation, and Response, is a so
 - <b>Security Automation:</b> One of the biggest benefits of SOAR is its ability to automate repetitive tasks. Security analysts are often bogged down by manual tasks like collecting data, investigating low-level alerts, and running basic remediation steps. SOAR can automate these tasks, freeing up analysts to focus on higher-priority investigations and strategic threat hunting.
 
 - <b>Incident Response:</b> SOAR plays a crucial role in incident response by providing a central platform to manage the entire incident lifecycle. It can automate tasks like isolating infected devices, blocking malicious traffic, and notifying the appropriate personnel. SOAR can also help with incident reporting and post-incident analysis.
+
+#### EDR (Endpoint Detection and Response)
+This is a security solution focused on protecting devices like laptops, desktops, and servers. It goes beyond traditional antivirus software by:
+
+- Monitoring endpoint activity for suspicious behavior.
+- Detecting potential threats like malware or unauthorized access attempts.
+- Enabling investigation and response to security incidents on endpoints.
+
+#### WAF (Web Application Firewall)
+This is a security appliance or software specifically designed to protect web applications from attacks. It acts as a gatekeeper, filtering traffic to web applications and blocking malicious requests.  Here are some common ways WAFs protect web applications:
+
+- Blocking SQL injection attacks.
+- Preventing cross-site scripting (XSS) attacks.
+- Filtering out denial-of-service (DoS) attacks.
+
+#### IDS (Intrusion Detection System)
+This is a security system that monitors network traffic for suspicious activity that might indicate an attack. It analyzes network packets and compares them to known attack signatures to identify potential threats.  Here are some common types of IDS:
+
+- Network IDS (NIDS): Monitors network traffic for suspicious activity.
+- Host-based IDS (HIDS): Monitors activity on individual devices for suspicious behavior.
+
+#### TIP (Threat Intelligence Platform)
+This is a type of software platform that helps organizations collect, analyze, and manage threat intelligence data from various sources. It provides a centralized view of threats and helps security teams prioritize their efforts and make informed decisions.
