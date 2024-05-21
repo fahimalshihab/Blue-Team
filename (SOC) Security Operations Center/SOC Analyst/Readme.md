@@ -32,6 +32,12 @@
 - Vulnerability assessment
 - Intrusion detection
 
+# SEIM
+- jira : for information for better understanding(instant).
+
+# IMP Q
+- collects log from the server.
+- 
 # SKills
 
 ![image](https://github.com/fahimalshihab/Blue-Team/assets/97816146/3b92c71a-569e-45f1-8d1b-5c49df30e3af)
